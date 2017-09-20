@@ -1,0 +1,264 @@
+ @font-face {
+    font-family: Calibri Bold;
+    src: url(../fonts/calibrib.ttf);
+   }
+
+ @font-face {
+    font-family: Calibri Bold;
+    src: url(../fonts/calibrib.eot);
+   }
+
+ @font-face {
+    font-family: Calibri Bold;
+    src: url(../fonts/calibrib.woff);
+   }
+
+ @font-face {
+    font-family: Calibri;
+    src: url(../fonts/calibri.ttf);
+   }
+
+ @font-face {
+    font-family: Calibri;
+    src: url(../fonts/calibri.eot);
+   }
+
+  @font-face {
+    font-family: Calibri;
+    src: url(../fonts/calibri.woff);
+   }
+/*======================================================================================*/
+ul{
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background:#eefaf9;
+	margin: 0 auto;
+}
+
+
+header{
+	width: 1170px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+ul.blocks li {
+    display: inline-block;
+    width: 125px;
+    height: 115px;
+    background: #0bb1a9;
+    margin: -2px;
+    padding: 25px 20px;
+    vertical-align: text-bottom;
+    color: #fff;
+    font-family: Calibri Bold;
+	font-size: 16px;
+	text-align: left;
+}
+
+
+ul.blocks li:nth-child(2n+1) {
+    background: #eefaf9;
+    padding: 0px;
+    width: 165px;
+    height: 165px;
+    overflow: hidden;
+}
+
+ul.blocks li.logo{
+    background: #14cac2;
+    padding: 35px 34px;
+    width: 262px;
+    line-height: 1;
+    height: auto;
+    vertical-align: text-bottom;
+}
+
+.logo a{
+	font-family: Calibri Bold;
+	font-size: 48px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+/*==================================================================*/
+
+section{
+	width: 1155px;
+	margin: 0 auto;
+	background: #04726d;
+}
+
+h1{
+	font-size: 83px;
+	font-family: Calibri Bold;
+	color: #fff;
+	margin: 0 auto;
+	display: inline-block;
+	margin: 15px 28px;
+}
+
+section p{
+    display: inline-block;
+    width: 905px;
+    vertical-align: super;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: Calibri;
+}
+
+footer{
+	width: 1155px;
+	margin: 0 auto;
+}
+
+.block-with-text{
+	display: inline-block;
+	padding: 32px;
+    width: 191px;
+}
+
+.block-with-text h2{
+	font-family: Calibri Bold;
+	font-size: 48px;
+	margin: 0px;
+	line-height: 1;
+}
+
+.block-with-text p{
+	font-family: Calibri;
+	font-size: 16px;
+}
+
+form{
+	float: right;
+	padding: 32px;
+	font-family: Calibri Bold;
+	font-size: 16px;
+	line-height: 2;
+}
+
+.input-text{
+	display: inline-block;
+}
+
+ input{
+	display: block;
+	padding: 9px;
+	border: 1px solid #0cb1aa;
+}
+
+.texta-block{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.texta-block span{
+	display: block;
+}
+
+textarea{
+	resize: none;
+	padding: 8.5px;
+    vertical-align: super;
+    border: 1px solid #0cb1aa;
+}
+
+.submit input{
+	float: right;
+	background-image: -webkit-linear-gradient(bottom, #f6a1a3 0%, #f8b1b3 100%);
+    background-image: -moz-linear-gradient(bottom, #f6a1a3 0%, #f8b1b3 100%);
+    background-image: -o-linear-gradient(bottom, #f6a1a3 0%, #f8b1b3 100%);
+    background-image: linear-gradient(to top, #f6a1a3 0%, #f8b1b3 100%);
+    background-color: #f6a1a3;
+    -webkit-box-shadow: 0 7px 0 0 #f59799;
+    -moz-box-shadow: 0 7px 0 0 #f59799;
+    box-shadow: 0 7px 0 0 #f59799;
+    border-radius: 9px;
+    border: 1px solid #f59799;
+    transition: 0.2s;
+    font-family: Calibri Bold;
+	font-size: 16px;
+	padding: 8px 28px;
+}
+
+.submit input:active{
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-top: 7px;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+@media only screen and (max-width: 1169px){
+	header, section, footer {
+    width: 100%;
+    text-align: center;
+}
+
+	ul.blocks li{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+    padding: 0px;
+}
+
+	ul.blocks li:nth-child(2n+1) {
+    background: #eefaf9;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+	h1, section p{
+		display: block;
+		width: 100%;
+		margin: 0px;
+        padding: 0px;
+	}
+
+    .block-with-text{
+        display: block;
+        width: 100%;
+        padding: 0px;
+    }
+    
+    form{
+        float: none;
+        padding: 0px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .submit input{
+        float: none;
+    }
+
+    .input-text, .texta-block{
+        display: block;
+    }
+
+    input{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    textarea{
+        width:80%;
+    }
+}
